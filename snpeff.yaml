@@ -1,0 +1,10 @@
+# mamba env create --name snpeff --file snpeff.yaml 
+channels:
+  - conda-forge
+  - bioconda
+  - r
+  - defaults
+dependencies:
+  - snpeff=5.1
+  - snpsift=5.1
+  - bcftools=1.17
